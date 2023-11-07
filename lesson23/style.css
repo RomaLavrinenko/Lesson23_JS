@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.number-box{
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.number{
+    width: 75px;
+    height: 75px;
+    background-color: lightgray;
+    font-size: 30px;
+    box-sizing: border-box;
+    
+}
+
+.time{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    font-size: 100px;
+}
+
+.buttonBox{
+    width: 30%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#num1{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    
+}
+#num2{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 33% 0;
+    background-repeat: no-repeat;
+
+}
+#num3{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 66% 0;
+    background-repeat: no-repeat;
+
+}
+#num4{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+
+}
+
+#num5{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 0 33%;
+    background-repeat: no-repeat;
+
+}
+#num6{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 33% 33%;
+    background-repeat: no-repeat;
+
+}
+#num7{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 66% 33%;
+    background-repeat: no-repeat;
+
+}
+#num8{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 100% 33%;
+    background-repeat: no-repeat;
+
+}
+
+#num9{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 0 66%;
+    background-repeat: no-repeat;
+
+}
+#num10{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 33% 66%;
+    background-repeat: no-repeat;
+
+}
+#num11{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 66% 66%;
+    background-repeat: no-repeat;
+
+}
+#num12{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 100% 66%;
+    background-repeat: no-repeat;
+
+}
+
+#num13{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+
+}
+#num14{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 33% 100%;
+    background-repeat: no-repeat;
+
+}
+#num15{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 66% 100%;
+    background-repeat: no-repeat;
+
+}
+#num16{
+    background-image: url('./image/Arsenal_FC.svg.webp');
+    background-size: 300px 300px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.result{
+    width: 500px;
+    height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px 0 20px;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+    display: none;
+    z-index: 99;
+}
+.text{
+    width: 100%;
+    height: 75px;
+    border-bottom:2px solid lightgray;
+    border-top: 2px solid lightgray;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.result-button{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0;  
+}
+
+.close{
+    height: 40px;
+    width: 80px;
+}
+
+.check{
+    height: 40px;
+    width: 80px;
+    background-color: green;
+}
+
+.lose{
+    width: 500px;
+    height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px 0 20px;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+    display: none;
+    z-index: 99;
+}
+.lose-button{
+    width: 80px;
+    margin: 20px auto;
+}
+.close-lose{
+    height: 40px;
+    width: 80px;
+    
+}
+
+.win{
+    width: 500px;
+    height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px 0 20px;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+    display: none;
+    z-index: 99;
+}
+
+.win-button{
+    width: 80px;
+    margin: 20px auto;
+}
+
+.close-win{
+    height: 40px;
+    width: 80px;
+}
+
+#check{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.modal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.container-ind{
+    z-index: 2;
+    height: 100vh;
+}
+
+.number-div{
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+}
+.nb{
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+}
